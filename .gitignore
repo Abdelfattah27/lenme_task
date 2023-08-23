@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Logging
+*.log
+
+# IDEs
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Local development
+/.env
+
+# Miscellaneous
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Ignore secret key
+/loan_platform/settings.py
+
+# Ignore migration files
+/loan_app/migrations/

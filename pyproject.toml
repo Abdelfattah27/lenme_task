@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "loan-platform"
+version = "0.1.0"
+description = ""
+authors = ["abdelfattah27 <Abdelfattah.hamdy234@gmail.com>"]
+readme = "README.md"
+packages = [{include = "loan_platform"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.4"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
